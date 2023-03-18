@@ -1,0 +1,17 @@
+*** Targets ***
+
+probe = FPing
+
+
+menu = Top
+title = 网络节点质量监控
+remark =  网络质量监控系统
+
+
+@include /config/location/telcom
+@include /config/location/unicom
+@include /config/location/cmcc
+@include /config/location/tencent
+@include /config/location/idc
+@include /config/location/dns
+@include /config/location/global

@@ -1,0 +1,39 @@
++ global
+menu = 国际线路
+title = 监控统计
+host = /global/cf /global/yt /global/gg /global/sbd /global/cmi
+
+++ cf
+
+menu = Cloudflare
+title = Cloudflare
+#alerts = someloss
+host = www.cloudflare.com
+
+++ yt
+
+menu = YouTube
+title = YouTube
+#alerts = someloss
+host = www.youTube.com
+
+++ gg
+
+menu = google
+title = google
+#alerts = someloss
+host = www.google.com
+
+++ sbd
+
+menu = 美国斯巴达
+title = 美国斯巴达
+#alerts = someloss
+host = 45.154.214.42
+
+++ cmi
+
+menu = 香港CMI
+title = 香港CMI
+#alerts = someloss
+host = 117.18.13.248

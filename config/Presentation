@@ -1,0 +1,57 @@
+*** Presentation ***
+
+template = /etc/smokeping/basepage.html
+charset  = utf-8
+
++ charts
+
+menu = 排行榜
+title = 排行榜
+
+++ stddev
+sorter = StdDev(entries=>4)
+title = 综合指数排行
+menu = 综合指数排行
+format = 综合指数 %f
+
+++ max
+sorter = Max(entries=>5)
+title = 最大延迟排行
+menu = 最大延迟排行
+format = 最大延迟时间 %f 秒
+
+++ loss
+sorter = Loss(entries=>5)
+title = 丢包率排行
+menu = 丢包率排行
+format = 丢包 %f
+
+++ median
+sorter = Median(entries=>5)
+title = 平均延迟排行
+menu = 平均延迟排行
+format = 平均延迟 %f 秒
+
++ overview
+
+width = 860
+height = 150
+range = 10h
+
++ detail
+
+width = 860
+height = 200
+unison_tolerance = 2
+
+"Last 3 Hours"    3h
+"Last 30 Hours"   30h
+"Last 10 Days"    10d
+"Last 30 Days"   30d
+"Last 90 Days"   90d
+#+ hierarchies
+#++ owner
+#title = Host Owner
+#++ location
+#title = Location
+

@@ -1,0 +1,40 @@
++ IDC
+menu = 后端网络监控
+title = 监控统计
+
+++ IDC1
+menu = IDC1网络监控
+title = IDC1网络监控列表
+host = /IDC/IDC1/IDC1-home-hkt-1 /IDC/IDC1/IDC1-home-hkt-2 /IDC/IDC1/IDC1-home-hkbn-1 /IDC/IDC1/IDC1-home-hkbn-2
+
+
++++ IDC1-home-hkt-1
+ 
+menu = home-hkt-1
+title = home-hkt-1
+#alerts = someloss
+host = home-hkt-1.strongpipe.live
+
+
++++ IDC1-home-hkt-2
+ 
+menu = home-hkt-2
+title = home-hkt-2
+#alerts = someloss
+host = home-hkt-2.strongpipe.live
+
+
++++ IDC1-home-hkbn-1
+ 
+menu = home-hkbn-1
+title = home-hkbn-1
+#alerts = someloss
+host = home-hkbn-1.strongpipe.live
+
+
++++ IDC1-home-hkbn-2
+ 
+menu = home-hkbn-2
+title = home-hkbn-2
+#alerts = someloss
+host = home-hkbn-2.strongpipe.live

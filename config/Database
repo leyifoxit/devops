@@ -1,0 +1,21 @@
+*** InfluxDB ***
+
+host = 10.122.126.43
+database = smokeping
+timeout = 10
+port = 8086
+
+*** Database ***
+
+step     = 60
+pings    = 20
+
+# consfn mrhb steps total
+
+AVERAGE  0.5   1  1008
+AVERAGE  0.5  12  4320
+    MIN  0.5  12  4320
+    MAX  0.5  12  4320
+AVERAGE  0.5 144   720
+    MAX  0.5 144   720
+    MIN  0.5 144   720

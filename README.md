@@ -1,4 +1,6 @@
 ### 部署smokeping docker 
+
+```shell
 docker run -d \
   --name=smokeping \
   -e PUID=1000 \
@@ -9,6 +11,8 @@ docker run -d \
   -v /mnt/data0/smokeping/data:/data \
   --restart unless-stopped \
   lscr.io/linuxserver/smokeping:latest
+
+```  
 
 
 ### prometheus docker 
